@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Monterchi Book';
+    src: local('Monterchi Book'), local('Monterchi-Book'),
+        url('Monterchi-Book.woff2') format('woff2'),
+        url('Monterchi-Book.woff') format('woff'),
+        url('Monterchi-Book.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monterchi Serif';
+    src: local('Monterchi Serif Light'), local('MonterchiSerif-Light'),
+        url('MonterchiSerif-Light.woff2') format('woff2'),
+        url('MonterchiSerif-Light.woff') format('woff'),
+        url('MonterchiSerif-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monterchi Serif';
+    src: local('Monterchi Serif Italic'), local('MonterchiSerif-Italic'),
+        url('MonterchiSerif-Italic.woff2') format('woff2'),
+        url('MonterchiSerif-Italic.woff') format('woff'),
+        url('MonterchiSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Monterchi Text Book';
+    src: local('Monterchi Text Book'), local('MonterchiText-Book'),
+        url('MonterchiText-Book.woff2') format('woff2'),
+        url('MonterchiText-Book.woff') format('woff'),
+        url('MonterchiText-Book.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monterchi';
+    src: local('Monterchi Bold Italic'), local('Monterchi-BoldItalic'),
+        url('Monterchi-BoldItalic.woff2') format('woff2'),
+        url('Monterchi-BoldItalic.woff') format('woff'),
+        url('Monterchi-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Monterchi Sans Book';
+    src: local('Monterchi Sans Book Italic'), local('MonterchiSans-BookItalic'),
+        url('MonterchiSans-BookItalic.woff2') format('woff2'),
+        url('MonterchiSans-BookItalic.woff') format('woff'),
+        url('MonterchiSans-BookItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Monterchi Sans';
+    src: local('Monterchi Sans Bold'), local('MonterchiSans-Bold'),
+        url('MonterchiSans-Bold.woff2') format('woff2'),
+        url('MonterchiSans-Bold.woff') format('woff'),
+        url('MonterchiSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monterchi Text';
+    src: local('Monterchi Text Bold Italic'), local('MonterchiText-BoldItalic'),
+        url('MonterchiText-BoldItalic.woff2') format('woff2'),
+        url('MonterchiText-BoldItalic.woff') format('woff'),
+        url('MonterchiText-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}

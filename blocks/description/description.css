@@ -1,0 +1,54 @@
+.description {
+  padding: 197px 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.description__tagline {
+ font-size: 50px;
+ line-height: 61px;
+ letter-spacing: 0.4em;
+ font-weight: 500;
+ padding: 0 60px 0 0;
+ margin: 0;
+ color: rgba(252, 252, 252, 0.8);
+}
+
+.description__tagline_mini-spacing {
+  letter-spacing: 0.26em;
+}
+
+.description__tagline_medium-spacing {
+  letter-spacing: 0.33em;
+}
+
+.description__text {
+  font-family: "Monterchi Text Book", "Time New Roman", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  color: rgba(252, 252, 252, 0.6);
+}
+
+.description__text_bold-italic {
+  font-weight: 600;
+  font-style: italic;
+  color: rgba(252, 252, 252, 0.8);
+}
+
+.description__text_line-through {
+  text-decoration: line-through;
+}
+
+.description__text_outside {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  color: rgba(252, 252, 252, 0.8);
+  text-align: end;
+  padding-right: 119px;
+}

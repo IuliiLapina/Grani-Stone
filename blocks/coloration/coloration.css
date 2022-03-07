@@ -1,0 +1,94 @@
+.coloration {
+  padding: 194px 0 0;
+}
+
+.coloration__list {
+  padding: 100px 0 0;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+}
+
+.coloration__list-item {
+  padding: 0 60px 0 0;
+}
+
+.coloration__image {
+  width: 220px;
+  height: 220px;
+}
+
+.coloration__subtitle {
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  padding: 0 0 13px;
+  margin: 0;
+}
+
+.coloration__choice-container {
+}
+
+.coloration__button {
+  width: 45px;
+  height: 41px;
+  border-radius: 2px 65% 2px;
+  margin: 0 26px 0 0;
+  border: none;
+}
+.coloration__button_white {
+  background-color: #FCFCFC;
+}
+.coloration__button_grey {
+  background-color: #B6B6B6;
+}
+
+.coloration__button_black {
+  background-color: #242424;
+}
+
+.coloration__button_lime {
+  background-color: #F0FFC2;
+}
+
+.coloration__button_pink {
+  background-color: #FFE4C0;
+}
+.coloration__button_mint {
+  background-color: #BFFFF0;
+}
+
+.coloration__button_blue {
+  background-color: #88E0EF;
+}
+
+.coloration__container {
+  display: flex;
+  align-items: flex-end;
+  padding: 93px 0 0;
+}
+
+.logo_big {
+  width: 228px;
+  height: 111px;
+  padding: 0 0 0 42px;
+}
+
+.coloration__container-text {
+
+}
+
+.coloration__text {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.009em;
+  font-family: "Monterchi Text Book", "Time New Roman", sans-serif;
+  padding: 0px 0 0 47px;
+  margin: 0 0 0px;
+}
+
+.coloration__text_bold-italic {
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.035em;
+}

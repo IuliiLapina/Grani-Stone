@@ -1,0 +1,49 @@
+.promo {
+  display: flex;
+  padding: 49px 0 0;
+}
+
+.promo__image {
+  width: 350px;
+  height: 454px;
+}
+
+.promo__image_left{
+  padding-top: 134px;
+}
+
+.promo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 150px 14px 58px 0px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.title_spasing{
+  letter-spacing: 0.15em;
+  padding: 0 0 0 20px;
+}
+
+.button {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  background: url('../../images/button.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgba(252, 252, 252, 0.7);
+  padding: 20px 62px;
+  cursor: pointer;
+  border: none;
+}

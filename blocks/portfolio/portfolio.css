@@ -1,0 +1,34 @@
+.portfolio {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0 0;
+}
+
+.marquee{
+  text-align:left;
+  overflow:hidden;
+  white-space: nowrap;
+  padding: 70px 0 120px;
+}
+
+.marquee img {
+  display:inline-block;
+  width: 290px;
+  height: 290px;
+  animation: marquee 10s linear infinite
+}
+
+.marquee img:hover{animation-play-state: paused}
+@keyframes marquee {
+0%  { transform: translate(100%, 0); }
+100% { transform: translate(-100%, 0); }
+}
+@media only screen and (max-width: 440px) {
+.marquee img{animation:none;padding-left:0}
+}
+
+.button_marquee {
+  margin-bottom: 100px;
+}

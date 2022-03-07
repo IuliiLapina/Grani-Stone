@@ -1,0 +1,37 @@
+.footer {
+  border-top: 1px solid rgba(252, 252, 252, 0.2);
+  padding: 14px 0 0 0;
+  margin: 84px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.footer__text {
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.01em;
+  padding: 10px 0 0;
+  margin: 0;
+}
+
+.footer__text_angarsk {
+  line-height: 34px;
+  font-family: "Monterchi Text Book", "Time New Roman", sans-serif;
+  text-align: start;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__column:last-child {
+  padding-right: 0;
+}

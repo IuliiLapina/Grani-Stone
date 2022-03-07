@@ -1,0 +1,44 @@
+.advantage {
+padding: 125px 0 0;
+}
+
+.advantage__list {
+  list-style: none;
+
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 80px;
+  width: 85%;
+}
+
+.advantage__list-item {
+}
+
+.advantage__list-item:nth-child(3n+1), .advantage__list-item:nth-child(3n+2) {
+  grid-column: auto / span 2;
+}
+
+.advantage__image {
+
+}
+
+.advantage__text {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+}
+
+.advantage__first {
+  display: flex;
+  justify-content: space-around;
+}
+
+.advantage__second {
+  display: flex;
+  justify-content: space-between;
+  padding: 93px 315px 0;
+}

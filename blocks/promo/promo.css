@@ -6,6 +6,12 @@
 .promo__image {
   width: 350px;
   height: 454px;
+  transform: translate(0px, 10%);
+  transition: all 0.8s ease 0s;
+}
+
+.promo__image.element-animation.element-show {
+  transform: translate(0px,0px);
 }
 
 .promo__image_left{
@@ -46,4 +52,15 @@
   padding: 20px 62px;
   cursor: pointer;
   border: none;
+  width: 100%;
+
+}
+
+@keyframes check_out_up {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

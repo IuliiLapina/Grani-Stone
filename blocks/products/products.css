@@ -1,5 +1,5 @@
 .products {
-  padding: 203px 0 0;
+  padding: 190px 0 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -27,8 +27,15 @@
   padding: 44px 0 45px;
 }
 
-.products__list-item {
+.products__list-item_first {
+  opacity: 0;
+  transition: all 1.5s ease 0s;
+  transform: translate(0px,20%);
+}
 
+.products__list-item_first.element-animation.element-show {
+  opacity: 1;
+  transform: translate(0px,0px);
 }
 
 .products__image {

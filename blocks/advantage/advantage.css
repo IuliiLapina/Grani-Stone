@@ -14,6 +14,11 @@ padding: 125px 0 0;
 }
 
 .advantage__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
 }
 
 .advantage__list-item:nth-child(3n+1), .advantage__list-item:nth-child(3n+2) {
@@ -21,7 +26,39 @@ padding: 125px 0 0;
 }
 
 .advantage__image {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+.advantage__image_form {
+  background-image: url('../../images/advantage/form.svg');
+  width: 100px;
+  height: 70px;
+}
+
+.advantage__image_life-time {
+  background-image: url('../../images/advantage/life-time.svg');
+  width: 130px;
+  height: 75px;
+}
+
+.advantage__image_moisture-resistance {
+  background-image: url('../../images/advantage/moisture-resistance.svg');
+  width: 130px;
+  height: 75px;
+}
+
+.advantage__image_maintainability {
+  background-image: url('../../images/advantage/maintainability.svg');
+  width: 130px;
+  height: 80px;
+}
+
+.advantage__image_practicality {
+  background-image: url('../../images/advantage/practicality.svg');
+  width: 130px;
+  height: 105px;
 }
 
 .advantage__text {
@@ -30,6 +67,8 @@ padding: 125px 0 0;
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.05em;
+  padding: 5px 0 0;
+  color: rgba(252, 252, 252, 0.7);
 }
 
 .advantage__first {
@@ -40,5 +79,26 @@ padding: 125px 0 0;
 .advantage__second {
   display: flex;
   justify-content: space-between;
-  padding: 93px 315px 0;
+  padding: 100px 315px 0;
 }
+
+.advantage__list-item:hover  .advantage__text{
+  color: rgba(252, 252, 252, 1);
+}
+
+.advantage__list-item:hover  .advantage__image_form{
+  background-image: url('../../images/advantage/form_gold.svg');
+}
+.advantage__list-item:hover  .advantage__image_life-time{
+  background-image: url('../../images/advantage/life-time_gold.svg');
+}
+.advantage__list-item:hover  .advantage__image_moisture-resistance{
+  background-image: url('../../images/advantage/moisture-resistance_gold.svg');
+}
+.advantage__list-item:hover  .advantage__image_maintainability{
+  background-image: url('../../images/advantage/maintainability_gold.svg');
+}
+.advantage__list-item:hover  .advantage__image_practicality{
+  background-image: url('../../images/advantage/practicality_gold.svg');
+}
+

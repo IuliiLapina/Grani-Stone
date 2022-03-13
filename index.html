@@ -19,21 +19,21 @@
 
       <main class="content">
         <section class="promo">
-        <img class="promo__image promo__image_left" src="./images/promo/left-photo.png" alt="Столешница с плитой">
+        <img class="promo__image promo__image_left element-animation" src="./images/promo/left-photo.png" alt="Столешница с плитой">
         <div class="promo__container">
           <h1 class="title"><span class="title_spasing">ИЗДЕЛИЯ</span> <br/>ИЗ ИСКУССТВЕННОГО <span class="title_spasing">ГРАНИТА</span></h1>
           <button class="button">Связаться с нами</button>
         </div>
-        <img class="promo__image" src="./images/promo/right-photo.png" alt="Столешница с мойкой">
+        <img class="promo__image element-animation" src="./images/promo/right-photo.png" alt="Столешница с мойкой">
         </section>
 
         <section class="description">
-          <div class="description__container">
+          <div class="description__container description__container_first element-animation">
             <p class="description__tagline">КРАСОТА</p>
             <p class="description__tagline description__tagline_mini-spacing">КАЧЕСТВО</p>
             <p class="description__tagline description__tagline_medium-spacing">КОМФОРТ</p>
           </div>
-          <div class="description__container">
+          <div class="description__container description__container_second element-animation">
             <p class="description__text description__text_outside">должны быть</p>
             <p class="description__text">Технология <b class="description__text description__text_bold-italic ">искусственного камня</b> изменит ваш взгляд на то, какими <b class="description__text description__text_bold-italic description__text_line-through">могут</b> поверхности.
               Вы можете выбрать стол любой формы и размера – с помощью технологии бесшовной стыковки мы соединим разные части в единое целое и воплотим <b class="description__text description__text_bold-italic">любые ваши идеи! </b>
@@ -67,25 +67,25 @@
           </ul> -->
           <div class="advantage__first">
             <div class="advantage__list-item">
-              <img class="advantage__image" src="./images/advantage/form.svg">
+              <div class="advantage__image advantage__image_form"></div>
               <p class="advantage__text">Любая форма</p>
             </div>
             <div class="advantage__list-item">
-              <img class="advantage__image" src="./images/advantage/life-time.svg">
+              <div class="advantage__image advantage__image_life-time"></div>
               <p class="advantage__text">Длительный срок службы</p>
             </div>
             <div class="advantage__list-item">
-              <img class="advantage__image" src="./images/advantage/moisture-resistance.svg">
+              <div class="advantage__image advantage__image_moisture-resistance"></div>
               <p class="advantage__text">Влагостойкость</p>
             </div>
           </div>
          <div class="advantage__second">
           <div class="advantage__list-item">
-            <img class="advantage__image" src="./images/advantage/maintainability.svg">
+            <div class="advantage__image advantage__image_maintainability"></div>
             <p class="advantage__text">Ремонтопригодность</p>
           </div>
           <div class="advantage__list-item">
-            <img class="advantage__image" src="./images/advantage/practicality.svg">
+            <div class="advantage__image advantage__image_practicality"></div>
             <p class="advantage__text">Практичность</p>
           </div>
          </div>
@@ -96,27 +96,27 @@
             ИЗГОТОВИМ ДЛЯ ВАС
           </h2>
           <ul class="products__list">
-            <li class="products__list-item">
+            <li class="products__list-item products__list-item_first element-animation">
               <img class="products__image" src="./images/products/table.png">
               <p class="products__text">Столешницы</p>
             </li>
-            <li class="products__list-item">
+            <li class="products__list-item products__list-item_first element-animation">
               <img class="products__image" src="./images/products/wash.png">
               <p class="products__text">Раковины и мойки</p>
             </li>
-            <li class="products__list-item">
+            <li class="products__list-item products__list-item_first element-animation">
               <img class="products__image" src="./images/products/wall.png">
               <p class="products__text">Настенные панели</p>
             </li>
-            <li class="products__list-item">
+            <li class="products__list-item  products__list-item_first element-animation">
               <img class="products__image" src="./images/products/bar.png">
               <p class="products__text">Барные стойки</p>
             </li>
-            <li class="products__list-item">
+            <li class="products__list-item  products__list-item_first element-animation">
               <img class="products__image" src="./images/products/bathroom.png">
               <p class="products__text">Для ванной</p>
             </li>
-            <li class="products__list-item">
+            <li class="products__list-item  products__list-item_first element-animation">
               <img class="products__image" src="./images/products/window.png">
               <p class="products__text">Подоконники</p>
             </li>
@@ -151,9 +151,9 @@
               <button class="coloration__button coloration__button_white"></button>
               <button class="coloration__button coloration__button_grey"></button>
               <button class="coloration__button coloration__button_black"></button>
-              <button class="coloration__button coloration__button_lime"></button>
+              <button class="coloration__button coloration__button_light-brown"></button>
+              <button class="coloration__button coloration__button_brown"></button>
               <button class="coloration__button coloration__button_pink"></button>
-              <button class="coloration__button coloration__button_mint"></button>
               <button class="coloration__button coloration__button_blue"></button>
             </div>
             <img class="logo_big" src="./images/logo/logo-big.png">
@@ -169,34 +169,122 @@
             КАК ПРОИСХОДИТ ПРОЦЕСС
           </h2>
           <div class="process__container">
-            <div class="card">
-              <p class="card__number">1</p>
-              <p class="card__subtitle">Заявка</p>
+            <div class="process__container-block">
+              <div class="card" id="one">
+                <p class="card__number">1</p>
+                <p class="card__subtitle">Заявка</p>
+
+              </div>
+              <img src="./images/process/Vector1.png">
+              <div class="card__description card__description_one">
+                <h3 class="card__subtitle_description">Заявка</h3>
+                <p class="card__text_description">
+                  Вы оставляете заявку
+                </p>
+                <p class="card__text_description">
+                  С вами свяжется специалист
+                </p>
+                <p class="card__text_description">
+                  Он ответит на ваши вопросы и сообщит предварительную стоимость
+                </p>
+                <p class="card__text_description">
+                  Если вы согласны - согласуете время замера и выбора цвета
+                </p>
+              </div>
             </div>
-            <div class="card">
+          </div>
+
+          <div class="process__container-block process__container-block_end">
+            <img class="process__line-second" src="./images/process/Vector2.png">
+            <div class="card card_second">
               <p class="card__number">2</p>
               <p class="card__subtitle">Замер</p>
             </div>
-            <div class="card">
+            <div class="card__description card__description_two">
+              <h3 class="card__subtitle_description">Замер</h3>
+              <p class="card__text_description">
+                Специалист покажет вам вживую образцы камня
+              </p>
+              <p class="card__text_description">
+                Выслушает ваши пожелания к проекту
+              </p>
+              <p class="card__text_description">
+                Ответит на оставшиеся вопросы
+              </p>
+              <p class="card__text_description">
+                Произведет окончательный рассчет стоимости
+              </p>
+            </div>
+          </div>
+
+          <div class="process__container-block card_block-three">
+            <div class="card card_three">
               <p class="card__number">3</p>
               <p class="card__subtitle">Подготовка</p>
             </div>
-            <div class="card">
-              <p class="card__subtitle">Уже через <span>10 дней</span> </br>изелие будет у вас!</p>
+            <div class="card__description card__description_three">
+              <h3 class="card__subtitle_description">Подготовка</h3>
+              <p class="card__text_description">
+                Вы вносите предоплату
+              </p>
+              <p class="card__text_description">
+                Мы заказываем материалы у производителя персонально под вас
+              </p>
+              <p class="card__text_description">
+                Вам устанавливают мебель
+              </p>
+              <p class="card__text_description">
+                Мы производим повторный замер, чтобы учесть особенности стыковки с мебелью
+              </p>
             </div>
-            <div class="card">
-              <p class="card__number">3</p>
-              <p class="card__subtitle">Подготовка</p>
+            <div class="card card_under">
+              <p class="card__subtitle_under">Уже через <span class="description__text_bold-italic">10 дней</span> </br>изелие будет у вас!</p>
             </div>
-            <div class="card">
+            <img src="./images/process/Vector3.png" class="process__line-second  process__line-three">
+          </div>
+
+          <div class="process__container-block process__container-block_end">
+            <img class="process__line-second" src="./images/process/Vector4.png">
+            <div class="card card_second">
               <p class="card__number">4</p>
               <p class="card__subtitle">Изготовление</p>
             </div>
-            <div class="card">
+            <div class="card__description card__description_four">
+              <h3 class="card__subtitle_description">Производство</h3>
+              <p class="card__text_description">
+                Опытные мастера создают формы индивидуально под ваш проект с учетом важных для вас нюансов
+              </p>
+              <p class="card__text_description">
+                Изделие после застывания будет отшлифовано и готово транспортировке
+              </p>
+              <p class="card__text_description">
+                Контроль качества на всех этапах осуществляет начальник производства
+              </p>
+            </div>
+          </div>
+
+          <div class="process__container-block">
+
+            <div class="card card_second">
               <p class="card__number">5</p>
               <p class="card__subtitle">Монтаж</p>
             </div>
-          </div>
+            <div class="card__description card__description_five">
+              <h3 class="card__subtitle_description">Монтаж</h3>
+              <p class="card__text_description">
+                Опыт работы специалиста более 10 лет
+              </p>
+              <p class="card__text_description">
+                Среднее время монтажа 2-3 часа
+              </p>
+              <p class="card__text_description">
+                При монтаже применяются инструменты, уменьшающие количество пыли
+              </p>
+              <p class="card__text_description">
+                После монтажа не останется крупного мусора
+              </p>
+            </div>
+            </div>
 
           <button class="button">Оставить заявку</button>
         </section>
@@ -207,11 +295,12 @@
           </h2>
 
           <div class="marquee">
-            <img class="marquee__image" src="./images/portfolio/bar.png">
-            <img class="marquee__image" src="./images/portfolio/ten.png">
-            <img class="marquee__image" src="./images/portfolio/kitchen.png">
-            <img class="marquee__image" src="./images/portfolio/1200.png">
-            <img class="marquee__image" src="./images/portfolio/table.png">
+
+            <img class="marquee__image" src="./images/portfolio/photo1.png">
+            <img class="marquee__image" src="./images/portfolio/photo2.png">
+            <img class="marquee__image" src="./images/portfolio/photo3.png">
+            <img class="marquee__image" src="./images/portfolio/photo4.png">
+            <img class="marquee__image" src="./images/portfolio/photo5.png">
           </div>
 
           <button class="button button_marquee">Посмотреть</button>
@@ -254,7 +343,6 @@
           <p class="footer__text">andreykrav67@mail.ru</p>
         </div>
       </footer>
-
-      <script src="./marquee.js"></script>
+      <script src="./scripts.js"></script>
   </body>
 </html>

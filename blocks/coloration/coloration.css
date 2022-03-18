@@ -10,12 +10,25 @@
 }
 
 .coloration__list-item {
-  padding: 0 60px 0 0;
+  margin: 0 60px 0 0;
+  padding: 0;
+  width: 268px;
+  height: 225px;
+  overflow: hidden;
+}
+
+.coloration__list-item:last-child {
+  margin: 0;
 }
 
 .coloration__image {
   width: 220px;
   height: 220px;
+}
+
+.coloration__image:hover {
+  width: 500px;
+  height: 500px;
 }
 
 .coloration__subtitle {
@@ -33,9 +46,14 @@
   width: 45px;
   height: 41px;
   border-radius: 2px 65% 2px;
-  margin: 0 26px 0 0;
+  margin: 0 25px 0 0;
   border: none;
 }
+
+.coloration__button:last-child {
+  margin: 0;
+}
+
 .coloration__button_white {
   background-color: #FCFCFC;
 }
@@ -71,7 +89,7 @@
 .logo_big {
   width: 228px;
   height: 111px;
-  padding: 0 0 0 42px;
+  padding: 0 0 0 74px;
 }
 
 .coloration__container-text {

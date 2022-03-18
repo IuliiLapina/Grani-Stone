@@ -93,10 +93,9 @@
   left: 28%;
 }
 
-#one {
-
+.card_end {
+  transform: translate(0, -105px);
 }
-
 
 .card__text_description {
   font-size: 26px;

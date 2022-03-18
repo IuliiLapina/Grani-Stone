@@ -35,3 +35,9 @@
 .footer__column:last-child {
   padding-right: 0;
 }
+
+.footer__container-phone {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

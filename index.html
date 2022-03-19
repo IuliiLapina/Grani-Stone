@@ -11,10 +11,45 @@
 
       <header class="header">
         <img class="header__logo" src="./images/logo/logo.svg" alt="Логотип GraniStone">
-        <input id="header__menu-toggle" type="checkbox" />
-        <label class="header__menu-btn" for="header__menu-toggle">
-          <span class="header__menu-btn-before"></span>
-        </label>
+
+        <nav className="header__menu">
+          <input id="header__menu-toggle" type="checkbox"  onClick={handleBurgerMenu}/>
+          <label class="header__menu-btn" for="header__menu-toggle">
+            <span class="header__menu-btn-before"></span>
+          </label>
+          <ul class="header__menu-link">
+            <li class="header__list-item">
+              <a href="#products" class="header__link">
+                ЧТО МЫ ИЗГОТАВЛИВАЕМ
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#coloration" class="header__link">
+                РАСЦВЕТКИ
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#process" class="header__link">
+                ПРОГРЕСС
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#portfolio" class="header__link">
+                НАШИ РАБОТЫ
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#delivery" class="header__link">
+                ЗОНА ДОСТАВКИ
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#contacts" class="header__link">
+                КОНТАКТЫ
+              </a>
+            </li>
+          </ul>
+        </nav>
       </header>
 
       <main class="content">
@@ -91,7 +126,7 @@
          </div>
         </section>
 
-        <section class="products">
+        <section class="products" id="products">
           <h2 class="subtitle">
             ИЗГОТОВИМ ДЛЯ ВАС
           </h2>
@@ -124,7 +159,7 @@
           <button class="button">Связаться с нами</button>
         </section>
 
-        <section class="coloration">
+        <section class="coloration" id="coloration">
           <h2 class="subtitle">
             ПОПУЛЯРНЫЕ РАСЦВЕТКИ
           </h2>
@@ -164,7 +199,7 @@
           </div>
         </section>
 
-        <section class="process">
+        <section class="process" id="process">
           <h2 class="subtitle">
             КАК ПРОИСХОДИТ ПРОЦЕСС
           </h2>
@@ -288,7 +323,7 @@
           <button class="button">Оставить заявку</button>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="#portfolio">
           <h2 class="subtitle">
             НАШИ РАБОТЫ
           </h2>
@@ -330,7 +365,7 @@
           <button class="button button_marquee">Посмотреть</button>
         </section>
 
-        <section class="delivery">
+        <section class="delivery" id="delivery">
           <h2 class="subtitle">
             ЗОНА ДОСТАВКИ
           </h2>
@@ -345,7 +380,7 @@
         </section>
       </main>
 
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <div class="footer__column">
           <img class="logo" src="./images/logo/logo.png">
           <p class="footer__text">Первые в Ангарске</p>

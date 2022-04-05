@@ -102,3 +102,57 @@ padding: 125px 0 0;
   background-image: url('../../images/advantage/practicality_gold.svg');
 }
 
+@media screen and (max-width: 835px) {
+  .advantage {
+    padding: 50px 0 0;
+  }
+  .advantage__text {
+    font-size: 22px;
+    line-height: 27px;
+    padding: 5px 0 0;
+  }
+
+  .advantage__list {
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+    width: 85%;
+  }
+  .advantage__first {
+    padding: 0 40px 0;
+  }
+
+  .advantage__second {
+    padding: 54px 148px 0;
+  }
+
+  .advantage__image {
+    background-size: contain;
+  }
+  .advantage__image_form {
+    width: 70px;
+    height: 60px;
+  }
+
+  .advantage__image_life-time {
+    width: 94px;
+    height: 75px;
+  }
+
+  .advantage__image_moisture-resistance {
+    width: 42px;
+    height: 75px;
+  }
+
+  .advantage__image_maintainability {
+    width: 55px;
+    height: 100px;
+  }
+
+  .advantage__image_practicality {
+    width: 40px;
+    height: 105px;
+  }
+}

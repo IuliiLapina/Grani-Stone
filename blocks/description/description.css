@@ -69,3 +69,32 @@
   text-align: end;
   padding-right: 119px;
 }
+
+@media screen and (max-width: 835px) {
+  .description {
+    padding: 150px 0 0;
+    flex-direction: column;
+  }
+
+  .description__tagline {
+    font-size: 40px;
+    line-height: 47px;
+    padding: 0 60px 0 0;
+  }
+
+  .description__text {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .description__text_outside {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    padding-right: 95px;
+  }
+
+  .description__text_bold-italic {
+    font-weight: 700;
+  }
+}

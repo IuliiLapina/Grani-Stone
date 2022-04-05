@@ -70,3 +70,42 @@
 .button_marquee {
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 835px) {
+  .portfolio {
+    padding: 157px 0 0;
+  }
+  .marquee{
+    text-align:left;
+    overflow:hidden;
+    white-space: nowrap;
+    padding: 75px 0 45px;
+  }
+  .marquee__image {
+    width: 170px;
+    height: 170px;
+  }
+  .marquee__poster {
+    width: 190px;
+    height: 190px;
+  }
+  .marquee__text {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    width: 190px;
+  }
+
+  .marquee__text_big {
+    font-size: 70px;
+    line-height: 60px;
+  }
+
+  .marquee__text_medium {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .button_marquee {
+    margin-bottom: 150px;
+  }
+}

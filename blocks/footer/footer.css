@@ -75,3 +75,43 @@
     justify-content: space-evenly;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 15px 15px 25px 0;
+    margin: 54px 0 0;
+    position: relative;
+  }
+  .logo_footer {
+    width: 117px;
+    height: 15px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    padding: 1px 0 0;
+  }
+  .footer__icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .footer__text_angarsk {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.09em;
+    padding: 3px 0 0;
+  }
+  .footer__column {
+    padding: 40px 0 0 18px;
+  }
+  .footer__column_angarsk {
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    align-items: flex-start;
+    padding: 0;
+  }
+}

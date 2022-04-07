@@ -1,5 +1,5 @@
 .products {
-  padding: 198px 0 0;
+  padding: 111px 0 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 835px) {
   .products {
-    padding: 150px 0 0;
+    padding: 94px 0 0;
   }
 
   .subtitle {
@@ -78,5 +78,35 @@
     font-size: 21px;
     line-height: 28px;
     letter-spacing: 0.05em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .products {
+    padding: 33px 0 0;
+  }
+  .subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 0px 1px 0;
+    width: 86%;
+    letter-spacing: 0;
+  }
+  .products__list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 19px;
+    padding: 20px 0 29px;
+    margin: 0;
+  }
+  .products__image {
+    width: 130px;
+    height: 190px;
+  }
+  .products__text {
+    padding: 1px 0 0;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
   }
 }

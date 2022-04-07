@@ -42,3 +42,30 @@
     padding: 0px 0 11px 0px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .delivery__container {
+    padding: 20px 0 0 19px;
+  }
+  .delivery__image {
+    width: 53px;
+    height: 67px;
+  }
+  .delivery__container-text {
+    padding-top: 3px;
+    position: relative;
+  }
+  .delivery__text {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    padding: 0px 0 5px 7px;
+    width: 90%;
+  }
+  .delivery__text_under {
+    position: absolute;
+    top: 76px;
+    left: -60px;
+  }
+
+}

@@ -109,3 +109,43 @@
     margin-bottom: 150px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .portfolio {
+    padding: 94px 0 0;
+  }
+  .marquee{
+    text-align:left;
+    overflow:hidden;
+    white-space: nowrap;
+    padding: 35px 0 34px;
+  }
+  .marquee__image {
+    width: 130px;
+    height: 130px;
+  }
+  .marquee__poster {
+    width: 130px;
+    height: 130px;
+  }
+  .marquee__text {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    width: 130px;
+  }
+
+  .marquee__text_big {
+    font-size: 50px;
+    line-height: 40px;
+  }
+
+  .marquee__text_medium {
+    font-size:16зч;
+    line-height: 19px;
+  }
+  .button_marquee {
+    margin: 0 auto 88px;
+    background-size: 90%;
+}
+}

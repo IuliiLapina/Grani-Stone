@@ -53,7 +53,6 @@
   cursor: pointer;
   border: none;
   width: 100%;
-
 }
 
 @keyframes check_out_up {
@@ -75,6 +74,8 @@
   .promo__image {
     width: 500px;
     height: 647px;
+    transform: translate(0px, 30%);
+    transition: all 1.5s ease 0s;
   }
 
   .promo__image_right {
@@ -93,9 +94,37 @@
     padding: 43px 35px 37px 0;
     width: 80%;
   }
+}
 
+@media screen and (max-width: 500px) {
+  .promo {
+    padding: 19px 0 0 0px;
+  }
   .promo__image {
+    width: 250px;
+    height: 324px;
     transform: translate(0px, 30%);
     transition: all 1.5s ease 0s;
+    padding-left: 0px;
   }
+  .promo__image_left{
+    padding-top: 0;
+    padding-right: 0px;
+  }
+  .title {
+    font-size: 22px;
+    line-height: 26px;
+    padding: 32px 2px 30px 0;
+    width: 80%;
+    letter-spacing: 0.04em;
+  }
+  .button {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px 46px;
+    width: 70%;
+    background-size: 90%;
+    margin: 0 auto;
+  }
+
 }
